@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main" id="display-1">
+  <input type="text" placeholder="0" id="display">
+  <div class="buttons-container">
+        <button class="button-AC" onclick="clearScreen()">AC</button>
+        <button class="button-B" onclick="show('+/-')">-</button>
+        <button class="button-modulus"onclick="show('%')">%</button>
+        <button class="button-divide"onclick="show('/')">/</button>
+        <button class="button-7"onclick="show('7')">7</button>
+        <button class="button-8"onclick="show('8')">8</button>
+        <button class="button-9"onclick="show('9')">9</button>
+        <button class="button-mul"onclick="show('*')">*</button>
+        <button class="button-4"onclick="show('4')">4</button>
+        <button class="button-5"onclick="show('5')">5</button>
+        <button class="button-6"onclick="show('6')">6</button>
+        <button class="button-minus"onclick="show('-')">-</button>
+        <button class="button-1"onclick="show('1')">1</button>
+        <button class="button-2"onclick="show('2')">2</button>
+        <button class="button-3"onclick="show('3')">3</button>
+        <button class="button-plus"onclick="show('+')">+</button>
+        <button class="button-0" id="button-zero"onclick="show('')">0</button>
+        <button class="button-dot"onclick="show('.')">.</button>
+        <button class="button-equal"onclick="calculate()" id="equal">=</button>
+    </div> 
+  </div>
+ <script src="script.js"></script> 
+</body>
+</html>
